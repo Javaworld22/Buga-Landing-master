@@ -165,7 +165,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="#"
+                    href="/terms"
                     className="text-gray-300 hover:text-orange-500 transition-colors"
                   >
                     Terms of Service
@@ -173,7 +173,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/privacy-policy"
                     className="text-gray-300 hover:text-orange-500 transition-colors"
                   >
                     Privacy Policy
@@ -181,7 +181,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/responsible-gaming"
                     className="text-gray-300 hover:text-orange-500 transition-colors"
                   >
                     Responsible Gaming
@@ -189,7 +189,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/aml-policy"
                     className="text-gray-300 hover:text-orange-500 transition-colors"
                   >
                     AML Policy
@@ -197,7 +197,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/licences"
                     className="text-gray-300 hover:text-orange-500 transition-colors"
                   >
                     Licenses
@@ -256,7 +256,7 @@ export default function Footer() {
                 © 2023 BUGA. All rights reserved.
               </p>
               <p className="text-gray-400 text-sm text-center sm:text-right">
-                Licensed and regulated by the National Lottery Regulatory
+                Licensed and regulated by the State Lottery Regulatory
                 Commission.
               </p>
             </div>
