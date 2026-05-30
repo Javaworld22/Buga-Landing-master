@@ -256,8 +256,7 @@ export default function Footer() {
                 © 2023 BUGA. All rights reserved.
               </p>
               <p className="text-gray-400 text-sm text-center sm:text-right">
-                Licensed and regulated by the State Lottery Regulatory
-                Commission.
+                Licensed and regulated by the Lagos State Lotteries and Gaming Authority.
               </p>
             </div>
           </div>
