@@ -43,6 +43,7 @@ export default function Navigation() {
           <div className="hidden lg:flex items-center space-x-8">
             <NavLink href="#how-it-works">How It Works</NavLink>
             <NavLink href="#features">Features</NavLink>
+            <NavLink href="#games">Games</NavLink>
             <NavLink href="#app">App</NavLink>
             <NavLink href="#faq">FAQ</NavLink>
           </div>

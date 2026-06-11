@@ -11,6 +11,7 @@ import { WhatOurWinnerSay } from "@/components/sections/WhatOurWinnerSay";
 import { FAQ } from "@/components/sections/FAQ";
 import { Support } from "@/components/sections/Support";
 import  Footer  from "@/components/sections/Footer";
+import { GamesSection } from "@/components/sections/Games";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Transform />
       <HowItWorksSection />
       <Features />
+      <GamesSection /> {/* Add the GamesSection here */}
       <WhatSetUsApart />
       <TrustedAndSecure />
       <WhatOurWinnerSay />
