@@ -67,6 +67,7 @@ const ALL_RESULTS = generateResults();
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const GAME_CONFIG: Record<GameType, { icon: any; color: string; bg: string; border: string }> = {
   "Buga Solo":    { icon: Zap,    color: "#F97316", bg: "rgba(249,115,22,0.1)",  border: "rgba(249,115,22,0.3)"  },
   "Buga Special": { icon: Star,   color: "#8B5CF6", bg: "rgba(139,92,246,0.1)",  border: "rgba(139,92,246,0.3)"  },
