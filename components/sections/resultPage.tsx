@@ -52,9 +52,9 @@ function generateResults(): DrawResult[] {
         prizePool: ["₦300,000", "₦700,000", "₦1,000,000"][gi],
         status: d === 0 && gi === 2 ? "pending" : "completed",
         winners: [
-          { position: 1, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦200,000", "₦2,000,000", "₦25,000,000"][gi], maskedName: "J***n A." },
-          { position: 2, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦100,000", "₦1,000,000", "₦10,000,000"][gi], maskedName: "A***a O." },
-          { position: 3, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦50,000", "₦500,000", "₦5,000,000"][gi], maskedName: "E***e K." },
+          { position: 1, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦300,000", "₦300,000", "₦300,000"][gi], maskedName: "J***n A." },
+          { position: 2, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦700,000", "₦700,000", "₦700,000"][gi], maskedName: "A***a O." },
+          { position: 3, ticket: `BG-${Math.random().toString(36).slice(2, 8).toUpperCase()}`, prize: ["₦1,000,000", "₦1,000,000", "₦1,000,000"][gi], maskedName: "E***e K." },
         ],
       });
     });
