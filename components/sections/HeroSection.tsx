@@ -79,11 +79,12 @@ export default function HeroSection() {
   const prevSlide = () => goToSlide((currentSlide - 1 + slides.length) % slides.length, "left");
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     autoPlayRef.current = setInterval(nextSlide, 5000);
     return () => {
       if (autoPlayRef.current) clearInterval(autoPlayRef.current);
     };
-  }, [currentSlide]);
+  }, [currentSlide]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const backgroundStyle = current.bgImage
     ? {
@@ -222,14 +223,14 @@ export default function HeroSection() {
                   href="#"
                   className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white px-5 py-4 rounded-xl transition-all duration-200 hover:scale-105"
                 >
-                  <img src="/cta/apple.svg" alt="Apple" className="w-5 h-5" />
+                  <Image src="/cta/apple.svg" alt="Apple" width={20} height={20} />
                   <span className="text-sm font-medium">App Store</span>
                 </a>
                 <a
                   href="#"
                   className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white px-5 py-4 rounded-xl transition-all duration-200 hover:scale-105"
                 >
-                  <img src="/cta/play.svg" alt="Google Play" className="w-5 h-5" />
+                  <Image src="/cta/play.svg" alt="Google Play" width={20} height={20} />
                   <span className="text-sm font-medium">Google Play</span>
                 </a>
               </div>
