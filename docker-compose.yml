@@ -9,6 +9,7 @@ services:
       HOSTNAME: 0.0.0.0
       PORT: 3000
       NODE_OPTIONS: --dns-result-order=ipv4first
+      NEXT_PUBLIC_BASE_URL: "https://buga.games"
     expose:
       - "3000"
     labels:

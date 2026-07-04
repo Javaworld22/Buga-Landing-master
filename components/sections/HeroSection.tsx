@@ -18,7 +18,7 @@ const slides = [
     description:
       "Your trusted digital lottery platform with secure draws and instant payouts. Join thousands of winners today.",
     cta: "Play Now",
-    ctaHref: "/signup",
+    ctaHref: "https://app.buga.games/signup",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const slides = [
     description:
       "Join a larger pool of players for higher-stakes weekly draws with multiplied prize pools.",
     cta: "Join Now",
-    ctaHref: "/signup",
+    ctaHref: "https://app.buga.games/signup",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const slides = [
     description:
       "Enter the biggest draw on the platform. One ticket could change everything forever.",
     cta: "Enter Jackpot",
-    ctaHref: "/signup",
+    ctaHref: "https://app.buga.games/signup",
   },
 ];
 
