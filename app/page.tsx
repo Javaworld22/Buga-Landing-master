@@ -6,8 +6,8 @@ import HeroSection1 from "@/components/sections/HeroSection";
 //import { Transform } from "@/components/sections/Transform";
 import HowItWorksSection from "@/components/sections/HowItWorks";
 //import { Features } from "@/components/sections/Features";
-import { WhatSetUsApart } from "@/components/sections/WhatSetUsApart";
-import { TrustedAndSecure } from "@/components/sections/TrustedAndSecure";
+// import { WhatSetUsApart } from "@/components/sections/WhatSetUsApart";
+// import { TrustedAndSecure } from "@/components/sections/TrustedAndSecure";
 //import { WhatOurWinnerSay } from "@/components/sections/WhatOurWinnerSay";
 import { FAQ } from "@/components/sections/FAQ";
 import { Support } from "@/components/sections/Support";
@@ -25,8 +25,8 @@ export default function HomePage() {
       <HowItWorksSection />
       {/* <Features /> */}
       <GamesSection /> {/* Add the GamesSection here */}
-      <WhatSetUsApart />
-      <TrustedAndSecure />
+      {/* <WhatSetUsApart /> */}
+      {/* <TrustedAndSecure /> */}
       {/* <WhatOurWinnerSay /> */}
       <FAQ />
       <Support />
