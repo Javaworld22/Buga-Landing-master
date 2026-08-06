@@ -1,7 +1,7 @@
 "use client";
 
 import Navigation from "@/components/ui/Navigation";
-import HeroSection from "@/components/sections/Hero";
+// import HeroSection from "@/components/sections/Hero";
 import HeroSection1 from "@/components/sections/HeroSection";
 //import { Transform } from "@/components/sections/Transform";
 import HowItWorksSection from "@/components/sections/HowItWorks";
