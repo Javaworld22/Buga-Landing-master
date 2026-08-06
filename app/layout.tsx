@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ReactLenis } from "@/utils/lenis";
+import MetaPixel from "@/components/MetaPixel";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
           `}
         </Script>
         <noscript>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             height="1"
             width="1"
@@ -47,6 +49,7 @@ export default function RootLayout({
       </head>
       <ReactLenis root>
         <body>
+        <MetaPixel />
           {children}
         </body>
       </ReactLenis>
