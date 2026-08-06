@@ -301,17 +301,6 @@
 
 import { ArrowRight, ShieldCheck, Zap, Users, Sparkles } from "lucide-react";
 
-const winners = [
-  { name: "Ngozi U.", amount: "₦700K" },
-  { name: "Emeka C.", amount: "₦300K" },
-  { name: "Fatima B.", amount: "₦1 Million" },
-  { name: "Chidi O.", amount: "₦300K" },
-  { name: "Amaka N.", amount: "₦1 Million" },
-  { name: "Tunde A.", amount: "₦700K" },
-  { name: "Blessing E.", amount: "₦300K" },
-  { name: "Musa I.", amount: "₦1 Million" },
-];
-
 const tiers = [
   { stake: "₦1K", win: "₦300K", color: "from-emerald-600 to-emerald-500" },
   { stake: "₦3K", win: "₦700K", color: "from-orange-600 to-orange-500" },
@@ -320,24 +309,7 @@ const tiers = [
 
 export default function HeroSection1() {
   return (
-    <section className="relative bg-[#0B0E14] overflow-hidden">
-      {/* Winner ticker */}
-       {/* <div className="relative border-b border-white/5 bg-[#0F1420] overflow-hidden">
-        <div className="flex animate-[marquee_28s_linear_infinite] whitespace-nowrap py-2.5">
-          {[...winners, ...winners].map((w, i) => (
-            <span
-              key={i}
-              className="flex items-center gap-1.5 mx-4 text-xs text-gray-300 shrink-0"
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-400" />
-              <span className="font-medium text-white">{w.name}</span>
-              <span className="text-gray-400">just won</span>
-              <span className="font-bold text-amber-400">{w.amount}</span>
-            </span>
-          ))}
-        </div>
-      </div> */}
-
+    <section id="hero" className="relative bg-[#0B0E14] overflow-hidden">
       {/* Ambient glow */}
       <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-amber-500/10 blur-[120px] rounded-full" />
 
@@ -388,7 +360,7 @@ export default function HeroSection1() {
         {/* Sub-link */}
         <p className="mt-4 text-sm text-gray-400">
           Free to join · Already have an account?{" "}
-          <a href="http://app.buga.games/login" className="text-amber-400 font-medium hover:underline">
+          <a href="https://app.buga.games/login" className="text-amber-400 font-medium hover:underline">
             Sign in
           </a>
         </p>
