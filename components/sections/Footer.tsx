@@ -253,7 +253,7 @@ export default function Footer() {
           <div className="container mx-auto px-4 py-6">
             <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
               <p className="text-gray-400 text-sm text-center sm:text-left">
-                © 2023 BUGA. All rights reserved.
+                © 2026 BUGA. All rights reserved.
               </p>
               <p className="text-gray-400 text-sm text-center sm:text-right">
                 Licensed and regulated by the Lagos State Lotteries and Gaming Authority.
